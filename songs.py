@@ -1,6 +1,3 @@
-__author__ = 'Administrator'
-
-
 import requests
 import json
 import time
