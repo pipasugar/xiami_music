@@ -16,7 +16,7 @@ headers={
 
 '''
 define a function to get available proxy ip address from source text file. Retuen a list of available ip adresses .
-the source text file is created by another script .
+the source text file is created by another script which named get_available_proxies.
 '''
 def get_available_proxy():
     #all_proxy_list=[]
