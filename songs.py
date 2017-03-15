@@ -85,14 +85,14 @@ for url in range(1,100000):
 
 
 
-
+print(time.ctime())
 if __name__=='__main__':      #this expression is indispensable to keep multi_process work finely.
 
-    print(time.ctime())
+
     p=Pool()
     p.map(insert_to_database,urls)   #in this circumstance, the function 'insert_to_database' is only need one paramenter.
 
-    print(time.ctime())
+print(time.ctime())
     
     
     
